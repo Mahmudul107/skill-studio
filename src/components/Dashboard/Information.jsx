@@ -1,7 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet-async";
 import Mahmudul from "../../assets/mahmudul.png";
-import pdf from '../../../public/Frontend Developer resume of Mahmudul Islam.pdf'
+import pdf from '../../../public/Frontebd Wev developer resume of Mahmudul Islam.pdf'
 
 const Information = () => {
   return (
