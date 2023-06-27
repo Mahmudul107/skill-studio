@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink, Outlet } from "react-router-dom";
 import { FaHome, FaInfoCircle, FaPhone, FaSubway } from "react-icons/fa";
+import logo from '../assets/skill.png'
 
 const Dashboard = () => {
   return (
@@ -18,9 +19,9 @@ const Dashboard = () => {
           </label>
           <Outlet />
         </div>
-        <div className="drawer-side bg-white shadow-2xl">
-            <h1 className="flex justify-center text-3xl font-serif font-custom pt-16">Skill Studio</h1>
-            <div className="border w-64 mx-auto bg-red-200 mb-8 mt-2"></div>
+        <div className="drawer-side bg-white shadow-2xl shadow-red-400">
+            <img className="mx-auto my-8 rounded-md shadow-black shadow-2xl" src={logo} alt="" />
+            {/* <div className="border w-64 mx-auto bg-red-200 mb-8 mt-8"></div> */}
           <label htmlFor="my-drawer-2" className="drawer-overlay"></label>
           <ul className="menu p-4 w-80 h-full text-base-content">
             {/* Sidebar content here */}
